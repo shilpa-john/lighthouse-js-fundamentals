@@ -2,7 +2,7 @@ const move = ['north', 'north', 'west', 'west', 'north', 'east','north']
 
 function finalPosition(move) 
 {
-  finalcord = [0,0]; //initialise it to zero first
+  let finalcord = [0,0]; //initialise it to zero first
   for (let i = 0; i < move.length; i++) //for loop for co-ordinates
   {
     if (move[i] === "north") //comparing values if euqal to north co-ordinate
